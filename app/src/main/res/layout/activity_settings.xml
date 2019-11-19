@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/gradient_home"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="30dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FFF" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"
+        android:background="@null"
+        android:layout_marginBottom="40dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"
+        android:inputType="phone"
+        android:background="@null"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textColor="#FFF"
+        android:background="@drawable/trash_icon"
+        android:layout_marginBottom="100dp"
+        android:onClick="deleteUser"
+        android:layout_marginLeft="-150dp"/>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginBottom="5dp"
+        android:textColor="#FFF"
+        android:background="@drawable/btnlogin"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="#FFF"
+        android:background="@drawable/btnregister"/>
+
+</LinearLayout>

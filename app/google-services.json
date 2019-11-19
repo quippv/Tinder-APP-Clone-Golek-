@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "114336376188",
+    "firebase_url": "https://golek-bbdeb.firebaseio.com",
+    "project_id": "golek-bbdeb",
+    "storage_bucket": "golek-bbdeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114336376188:android:25eb3403f3e2b56b16b0f9",
+        "android_client_info": {
+          "package_name": "com.example.golek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114336376188-5evfv034p6vst9453uod9me8rf08c4gh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAehN5eRXUSOXs1rEFK5_5_N9yA5bgK5jU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114336376188-5evfv034p6vst9453uod9me8rf08c4gh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
